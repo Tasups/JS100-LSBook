@@ -10,7 +10,7 @@ const stepThree = num - ((tensPlace * 10) + onesPlace);
 
 const hundredsPlace = (stepThree % 1000) / 100;
 console.log(`The number in the hundred's place is: ${hundredsPlace}`);
-const stepFour = (num - (onesPlace + (tensPlace * 10) + (hundredsPlace * 100));
+const stepFour = num - (onesPlace + (tensPlace * 10) + (hundredsPlace * 100));
 
 const thousandsPlace = (stepFour % 10000) / 1000;
 console.log(`The number in the thousand's place is: ${thousandsPlace}`);
