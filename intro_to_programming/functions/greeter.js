@@ -1,7 +1,7 @@
 
 
 
-const firstName = name => {
+const firstName = () => {
   let rlSync = require(`readline-sync`);
   let nameFirst = rlSync.question(`What's your first name?\n`);
   return nameFirst;
