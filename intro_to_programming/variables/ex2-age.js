@@ -1,5 +1,7 @@
 
-const currentAge = 20;
+let rlSync = require(`readline-sync`);
+let currentAge = Number(rlSync.question(`What's your current age?\n`));
+
 const ageInTen = 10;
 const ageInTwenty = 20;
 const ageInThirty = 30;
