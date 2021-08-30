@@ -5,8 +5,10 @@ let vocabulary = [
   ];
   
   for (let i = 0; i < vocabulary.length; i++) {
-    for (let j = 0; j < vocabulary[i].length; j++) {
-      console.log(vocabulary[i]);
+    let vocabStr = vocabulary[i];
+    
+    for (let j = 0; j < vocabStr.length; j++) {
+      console.log(vocabStr[j]);
     }
   }
   
